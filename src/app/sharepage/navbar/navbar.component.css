@@ -1,0 +1,15 @@
+.navbar {
+  background-color: rgba(242, 128, 252, 0.871);
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link.active-link {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: underline;
+}

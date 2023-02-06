@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6" *ngIf="menuData">
+      <button class="btn btn-outline-info" (click)="getBack()">Back</button>
+      <img src="{{ menuData[0].foodImg }}" />
+      <h1 class="mt-3">{{ menuData[0].foodName }}</h1>
+      <p>{{ menuData[0].foodPrice }} zł</p>
+    </div>
+    <div class="col-lg-6">
+      <h1 class="header">Order form</h1>
+      <p>Enter your details to order</p>
+      <form>
+        <div class="form-group mb-3">
+          <!-- Full Name -->
+          <label class="control-label">Full Name</label>
+          <input type="text" class="form-control" placeholder="" />
+        </div>
+
+        <div class="form-group mb-3">
+          <!-- Street 1 -->
+          <label class="control-label">Phone number</label>
+          <input type="text" class="form-control" placeholder="XXX XXX XXX" />
+        </div>
+
+        <div class="form-group mb-3">
+          <!-- Street 2 -->
+          <label class="control-label">Street Address</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Street address, building number, floor number"
+          />
+        </div>
+
+        <div class="form-group mb-3">
+          <!-- City-->
+          <label class="control-label">City</label>
+          <input type="text" class="form-control" placeholder="City" />
+        </div>
+
+        <div class="form-group">
+          <!-- Zip Code-->
+          <label for="zip_id" class="control-label">Zip Code</label>
+          <input type="text" class="form-control" placeholder="#####" />
+        </div>
+
+        <div class="form-group">
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Buy!</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

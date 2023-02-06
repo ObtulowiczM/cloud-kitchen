@@ -1,0 +1,43 @@
+.foodbox {
+  margin-top: 60px;
+  padding: 10px 10px;
+}
+
+.foodbox img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.foodbox h1 {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.foodbox p {
+  font: 16px "Fira Sans", serif;
+  font-style: oblique;
+  text-align: justify;
+}
+button {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgba(173, 214, 250, 0.652);
+  color: var(--primary-color);
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+
+button:hover {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-weight: bold;
+  color: var(--primary-color);
+}

@@ -1,0 +1,50 @@
+img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-block-start: 14vh;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
+
+button {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: rgba(173, 214, 250, 0.652);
+  color: var(--primary-color);
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+
+button:hover {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.btn-outline-info {
+  margin-block-start: 10vh;
+  margin-bottom: 2%;
+}

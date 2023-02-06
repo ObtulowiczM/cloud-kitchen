@@ -1,0 +1,15 @@
+.background {
+  background-image: url("../../../assets/13790.jpg");
+  background-size: cover;
+  height: 89vh;
+}
+
+h1 {
+  padding-top: 15%;
+  font: 30px "Fira Sans", serif;
+  text-align: center;
+}
+p {
+  font: 20px "Fira Sans", serif;
+  text-align: justify;
+}
